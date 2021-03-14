@@ -19,7 +19,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("api/addresses")
-public class AddressResrController {
+public class AddressRestController {
     @Autowired
     AddressServiceImpl service;
 
